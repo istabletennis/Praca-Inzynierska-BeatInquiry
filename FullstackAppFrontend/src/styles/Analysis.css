@@ -1,0 +1,74 @@
+.top {
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    min-height: 60%;
+}
+
+.left-analysis, .right-analysis {
+    width: 50%;
+    min-height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.right-analysis {
+    padding-left: 20px;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.main {
+    height: 100%
+}
+
+.select-box {
+    margin: 20px;
+}
+
+.select {
+  padding: 10px 20px;
+  width: 150px;
+  font-size: 1em;
+  cursor: pointer;
+  border: none;
+  border-radius: 25px;
+  transition: background-color 0.3s ease;
+  -webkit-appearance: none;
+}
+
+
+.option {
+  padding: 10px 20px;
+  width: 150px;
+  font-size: 1em;
+  cursor: pointer;
+  border: none;
+  border-radius: 25px;
+  transition: background-color 0.3s ease;
+}
+
+.analyze-button {
+  padding: 10px 20px;
+  font-size: 1.2em;
+  cursor: pointer;
+  border: none;
+  border-radius: 25px;
+  transition: background-color 0.3s ease;
+  color: #ffffff;
+}
+
+.analyze-button:hover {
+  background-color: #ffffff;
+  color: #1A1A1A
+}

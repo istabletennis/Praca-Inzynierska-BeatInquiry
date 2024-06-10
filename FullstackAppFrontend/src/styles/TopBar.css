@@ -1,0 +1,42 @@
+.top-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #333;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  box-sizing: border-box;
+  z-index: 1000;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo-image {
+  height: 40px;
+}
+
+.nav-buttons {
+  display: flex;
+}
+
+.nav-button {
+  margin-left: 10px;
+}
+
+.nav-button a, .nav-button button {
+  background-color: #444;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+}
+

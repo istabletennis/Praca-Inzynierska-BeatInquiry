@@ -1,0 +1,9 @@
+fastapi
+pydantic
+python-jose
+passlib
+textblob
+matplotlib
+pymongo
+bcrypt
+openai

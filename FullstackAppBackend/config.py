@@ -1,0 +1,13 @@
+MONGO_SONGS_COLLECTION_NAME_REAL_SONGS = 'songs_data'
+MONGO_SONGS_COLLECTION_NAME_GPT4 = 'generated_songs_gpt4'
+MONGO_SONGS_COLLECTION_NAME_GPT35 = 'generated_songs_gpt35'
+MONGO_SONGS_COLLECTION_NAME_BIV2 = 'generated_songs_biv2'
+
+WORDS_COUNT_CHART_SIZE = 30
+
+MONGO_CONNECTION_STRING = "mongodb://localhost:27017/test"
+MONGO_DB_NAME = "2"
+MONGO_USERS_COLLECTION_NAME = "users"
+
+STORAGE_PATH = "./static/"
+STORAGE_URL = 'http://localhost:8000/'
